@@ -14,6 +14,8 @@
 		56189BD91BEB350A0018DF34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56189BD71BEB350A0018DF34 /* LaunchScreen.storyboard */; };
 		56189BE41BEB350A0018DF34 /* week_3_mailboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56189BE31BEB350A0018DF34 /* week_3_mailboxTests.swift */; };
 		56189BEF1BEB350A0018DF34 /* week_3_mailboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56189BEE1BEB350A0018DF34 /* week_3_mailboxUITests.swift */; };
+		56189BFD1BEB37690018DF34 /* MailboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56189BFC1BEB37690018DF34 /* MailboxViewController.swift */; };
+		56BADB811BF0719400D29FB5 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BADB801BF0719400D29FB5 /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		56189BEA1BEB350A0018DF34 /* week 3 mailboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "week 3 mailboxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56189BEE1BEB350A0018DF34 /* week_3_mailboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week_3_mailboxUITests.swift; sourceTree = "<group>"; };
 		56189BF01BEB350A0018DF34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56189BFC1BEB37690018DF34 /* MailboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailboxViewController.swift; sourceTree = "<group>"; };
+		56BADB801BF0719400D29FB5 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +101,13 @@
 		56189BCD1BEB350A0018DF34 /* week 3 mailbox */ = {
 			isa = PBXGroup;
 			children = (
+				56BADB801BF0719400D29FB5 /* Common.swift */,
 				56189BCE1BEB350A0018DF34 /* AppDelegate.swift */,
 				56189BD01BEB350A0018DF34 /* ViewController.swift */,
 				56189BD21BEB350A0018DF34 /* Main.storyboard */,
 				56189BD51BEB350A0018DF34 /* Assets.xcassets */,
 				56189BD71BEB350A0018DF34 /* LaunchScreen.storyboard */,
+				56189BFE1BEB376F0018DF34 /* View Controllers */,
 				56189BDA1BEB350A0018DF34 /* Info.plist */,
 			);
 			path = "week 3 mailbox";
@@ -123,6 +129,14 @@
 				56189BF01BEB350A0018DF34 /* Info.plist */,
 			);
 			path = "week 3 mailboxUITests";
+			sourceTree = "<group>";
+		};
+		56189BFE1BEB376F0018DF34 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				56189BFC1BEB37690018DF34 /* MailboxViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56BADB811BF0719400D29FB5 /* Common.swift in Sources */,
 				56189BD11BEB350A0018DF34 /* ViewController.swift in Sources */,
 				56189BCF1BEB350A0018DF34 /* AppDelegate.swift in Sources */,
+				56189BFD1BEB37690018DF34 /* MailboxViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +498,7 @@
 				56189BF51BEB350A0018DF34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56189BF61BEB350A0018DF34 /* Build configuration list for PBXNativeTarget "week 3 mailboxTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +507,7 @@
 				56189BF81BEB350A0018DF34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56189BF91BEB350A0018DF34 /* Build configuration list for PBXNativeTarget "week 3 mailboxUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +516,7 @@
 				56189BFB1BEB350A0018DF34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
