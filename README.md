@@ -9,4 +9,6 @@ How many hours did it take to complete?
 
 ![alt tag](/mailbox-week3.gif)
 
+added a gif to show how to archive an email
+
 ![alt tag](/mailbox-week3-2.gif)
